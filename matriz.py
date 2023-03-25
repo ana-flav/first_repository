@@ -1,6 +1,6 @@
 y= int(input("tamanho total da  sua matriz :")) #se sua matriz for de 3 linhas e 3 colunas digite 3
 linha = [0]*y # aqui vc criar a qtd de linhas para sua matriz e uma lista
-matriz = [linha] * y #tecnicamente eu crio minhas colunas aqui dentro, estou reptidando minha lista linha em 3 vezes
+matriz = [linha] * y #tecnicamente eu crio minhas colunas aqui dentro, estou repetindo minha lista linha em 3 vezes
 print(matriz) 
 for line in range(y):
     linha = [] #declaro que é uma lista
